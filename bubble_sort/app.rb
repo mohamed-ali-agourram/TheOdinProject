@@ -11,5 +11,5 @@ def bubble_sort(array)
   array
 end
 
-p bubble_sort([5, 0, 2, 3, 1]) #=> [0,2,3,5]
+p bubble_sort([5, 0, 2, 3, 1]) #=> [0, 1, 2, 3, 5]
 p bubble_sort([4, 3, 78, 2, 0, 2]) #=> [0,2,2,3,4,78]
