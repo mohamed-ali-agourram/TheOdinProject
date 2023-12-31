@@ -20,7 +20,5 @@ def caesar_cipher(string, shift_factor)
       crypted_string << letter
     end
   end
-  p crypted_string
+  crypted_string
 end
-
-caesar_cipher("What a String!", 5) #  => "Bmfy f Xywnsl!"
